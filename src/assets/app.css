@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: cyberpunk, aqua --default, dark --prefersdark, light;
+}

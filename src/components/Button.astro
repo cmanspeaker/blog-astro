@@ -1,0 +1,4 @@
+---
+const { size = 'md', type = 'neutral', href = 'https://example.com'} = Astro.props;
+---
+<button class={`btn btn-${size} btn-${type}`} type="button"><slot /></button>
